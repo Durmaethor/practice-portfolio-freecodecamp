@@ -1,0 +1,240 @@
+body {
+  font-family:
+}
+
+nav {
+  display: block;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  background-color: rgba(220,220,220, .5);
+  text-align: center;
+}
+
+.nav>li {
+  display: inline-block;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav>li>a:hover {
+  color: #FF8C00;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.name {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 96px;
+  text-shadow: 3px 2px #FF8C00;
+}
+
+.skill {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 48px;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.main-header {
+  padding-top: 75px;
+  height: 500px;
+  background:   url(https://www.phyramid.com/images/blog/making-phyramid-coms-procedurally-rendered-3d-header/header-background-indexed.png) no-repeat center;
+}
+
+.title {
+  color: white;
+  padding-top: 85px;
+  text-align: center;
+}
+
+.social-media {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 25px;
+}
+
+.social-media>li {
+  display: inline-block;
+}
+
+.logo1 {
+  height: 35px;
+  padding: 0 25px;
+}
+
+.logo2 {
+  height: 45px;
+  padding-top: 5px;
+  padding: 5 25px 0;
+}
+
+.logo3 {
+  height: 35px;
+  padding: 0 25px;
+}
+
+.container1 {
+  width: 80%;
+  margin: auto;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+}
+
+.profile-pic {
+  flex: 1;
+  padding: 50px;
+}
+
+.pic {
+   border: 2px solid #FF8C00;
+   width: 250px;
+}
+
+.bio {
+  flex: 2;
+  padding: 50px;
+  font-size: 24px;
+}
+
+.container3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: lightgrey;
+}
+
+.proj1 {
+  flex: 2;
+  font-size: 24px;
+  padding: 50px;
+}
+
+.MSHB_Thumb {
+  flex: 1;
+  width: 400px;
+  border: 2px solid #FF8C00;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px;
+  background-color: #FF8C00;
+}
+
+.TB-Thumb {
+  flex: 1;
+  border: 2px solid black;
+  margin: 50px;
+  width: 525px;
+}
+
+.proj2 {
+  flex: 2;
+  font-size: 24px;
+  padding: 50px;
+}
+
+.pre-footer {
+  padding-top: 75px;
+  height: 400px;
+  background:   url(http://www.planwallpaper.com/static/images/6909249-black-hd-background.jpg) no-repeat center;
+}
+
+.sm-call {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.more {
+  flex: 1;
+  color: #FF8C00;
+  font-size: 48px;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 3px 3px #000000;
+}
+
+.b-logos {
+  flex: 1;
+}
+
+li {
+  list-style: none;
+}
+
+.b-logo1 {
+  width: 75px;
+  margin: 5px;
+}
+
+.b-logo2 {
+  width: 75px;
+  margin: 5px;
+}
+
+.footer {
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  margin: 0;
+}
+
+.footer>ul>li {
+  display: inline-block;
+  padding: 25px;
+}
+
+.footer>ul>li>a:hover {
+  color: #FF8C00;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.b-link {
+  color: white;
+}
+
+.copyright {
+  color: #FF8C00;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  margin: 0;
+}
+
+
+
+
+
+
+
